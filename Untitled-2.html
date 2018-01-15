@@ -7,30 +7,50 @@
 <script src="sketch.js"></script>
 <!-- Using p5.js for showing data and Laravel to take the data from the database -->
 <style type="text/css">
-	img
-	{
-		position: relative;
-		top: 0;
-		left: 0;
+	#myContainer{
+		float: right;
 	}
-	#myContainer
-	{
-		position: absolute;
-		top: 0px;
-		left: 0px;
+
+	body div div{
+		display: inline-block;;
+	}
+
+	h1,h3,h6{
+		color: #003366;
+		font-family: sans-serif;
+		margin:0;
+		padding: 0;
+	}
+
+	h1{
+		font-size: 75px;
+	}
+
+	h3{
+		font-size: 50px;
+	}
+
+	h6{
+		font-size: 25px;
 	}
 
 </style>
 </head>
 
 <body>
-	
-
-	<p>Test</p>
-
-	<div style="position: relative; left: 0; top: 0;">
-	<img src="Artboard 1.png">
-	<div id = 'myContainer'></div>
-	</div>
+	<div id = "parent">
+		<div id="writing">
+			<h1>Final Project</h1>
+			<h6>R. Aditya Pribadi K.</h6>
+			<h6>Reinaldy E. Fargo</h6>
+			<h6>Veber Sormin</h6>
+			<br>
+			<br>
+			<h3>From Auditorium</h3>
+			<h3>To Pantry</h3>
+			<h6>A* Algorithm</h6>
+		</div>
+		<div id = 'myContainer'></div>
+	<div>
 </body>
 </html>
